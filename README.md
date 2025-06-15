@@ -1,26 +1,17 @@
-# 📊 Task 1 – GitHub Setup & Exploratory Data Analysis
-
-This task is the foundational step of the Week 3 project, focusing on understanding and exploring a South African car insurance dataset. The analysis aims to identify trends and patterns that affect risk, profitability, and customer segmentation for risk-based pricing.
-
----
-
-## 🎯 Objective
-
-As a Marketing Analytics Engineer at AlphaCare Insurance Solutions (ACIS), your goal is to explore claim and premium data to uncover:
-- High-risk and low-risk customer segments
-- Key features that influence claims and profitability
-- Patterns across regions, vehicle types, and customer demographics
-
-This exploratory analysis prepares the ground for building predictive models and pricing strategies in later tasks.
+# 🚗 Insurance Risk Modeling – Week 3 Project  
+*10 Academy – AI Mastery Program*  
+**Participant:** [Your Full Name]  
+**Cohort:** Week 3 | Role: Marketing Analytics Engineer at ACIS (Simulated)
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🧭 Project Overview
 
-- Python (pandas, seaborn, matplotlib)
-- Jupyter Notebook
-- Git & GitHub
-- Boxplots, bar charts, and trend plots
+This project supports **AlphaCare Insurance Solutions (ACIS)** in building smarter, **risk-based car insurance pricing** strategies using historical data from South Africa. We explore vehicle claims, premiums, and customer demographics to:
+- Discover low-risk customer segments
+- Identify high-risk patterns and pricing inefficiencies
+- Build predictive models for claim risk and premiums
+- Generate actionable business recommendations
 
 ---
 
