@@ -1,28 +1,29 @@
-# 📊 Task 1 – GitHub Setup & Exploratory Data Analysis
+# 📦 Task 2 – Data Version Control (DVC)
 
-This task is the foundational step of the Week 3 project, focusing on understanding and exploring a South African car insurance dataset. The analysis aims to identify trends and patterns that affect risk, profitability, and customer segmentation for risk-based pricing.
+This task focuses on implementing **Data Version Control (DVC)** to ensure that datasets and other large files used in this project are reproducible, versioned, and easily shared across environments.
 
 ---
 
 ## 🎯 Objective
 
-As a Marketing Analytics Engineer at AlphaCare Insurance Solutions (ACIS), your goal is to explore claim and premium data to uncover:
-- High-risk and low-risk customer segments
-- Key features that influence claims and profitability
-- Patterns across regions, vehicle types, and customer demographics
-
-This exploratory analysis prepares the ground for building predictive models and pricing strategies in later tasks.
+To set up DVC and use it to track the insurance claims dataset so that:
+- Data changes can be versioned like code
+- Collaborators can pull the exact version of the dataset
+- Future modeling and experimentation steps can be traced and reproduced
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠 Tools Used
 
-- Python (pandas, seaborn, matplotlib)
-- Jupyter Notebook
+- Python
 - Git & GitHub
-- Boxplots, bar charts, and trend plots
+- [DVC](https://dvc.org/) (Data Version Control)
 
 ---
+
+## 📂 Project Folder Structure (after DVC setup)
+
+
 
 ## 📁 Project Structure
 insurance-risk-week3/  
@@ -31,8 +32,11 @@ insurance-risk-week3/
 |   |   └── MachineLearningRating_v3.txt  
 |   └── clean/  
 |   |   └── MachineLearningRating_v3_cleaned.csv    
+|   |   └── claims.csv.dvc   
 ├── scripts/  
-│   └── task1_eda.ipynb  
+│   └── task1_eda.ipynb 
+├── .dvc/  
+├── .dvcignore   
 ├── README.md  
 ├── .gitignore  
 └── requirements.txt
