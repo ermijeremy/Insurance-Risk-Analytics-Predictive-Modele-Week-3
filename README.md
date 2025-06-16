@@ -1,8 +1,4 @@
 # 🚗 Insurance Risk Modeling – Week 3 Project  
-*10 Academy – AI Mastery Program*  
-**Participant:** [Your Full Name]  
-**Cohort:** Week 3 | Role: Marketing Analytics Engineer at ACIS (Simulated)
-
 ---
 
 ## 🧭 Project Overview
