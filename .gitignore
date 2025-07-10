@@ -1,0 +1,15 @@
+# Data
+data/
+*.csv
+*.xlsx
+*.txt
+
+# Python virtual environment
+venv/
+env/
+Data/raw/MachineLearningRating_v3.txt
+Data/clean/MachineLearningRating_v3_cleaned.csv
+/config.local
+/tmp
+/cache
+.dvc/
