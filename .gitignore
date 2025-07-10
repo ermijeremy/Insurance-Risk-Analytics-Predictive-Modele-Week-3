@@ -11,4 +11,4 @@ Data/raw/MachineLearningRating_v3.txt
 #Data/clean/MachineLearningRating_v3_cleaned.csv
 /config.local
 /tmp
-/cache
+/cache.dvc/cache/
