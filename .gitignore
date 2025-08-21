@@ -1,15 +1,27 @@
 # Data
+<<<<<<< HEAD
 Data/
 *.csv
 #*.xlsx
 #*.txt
 .dvc/cache/files/md5/c3/88e2ba88a314d522682ef192481a74
+=======
+data/
+*.csv
+*.xlsx
+*.txt
+
+>>>>>>> 3a4f73e18e7f7ce97b495248b0e49e494259949a
 # Python virtual environment
 venv/
 env/
 Data/raw/MachineLearningRating_v3.txt
+<<<<<<< HEAD
 #Data/clean/MachineLearningRating_v3_cleaned.csv
 /config.local
 /tmp
 /cache.dvc/cache/
 storage/
+=======
+Data/clean/MachineLearningRating_v3_cleaned.csv
+>>>>>>> 3a4f73e18e7f7ce97b495248b0e49e494259949a
