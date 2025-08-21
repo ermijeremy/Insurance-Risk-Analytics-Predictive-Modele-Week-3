@@ -1,15 +1,8 @@
-# 🚗 Insurance Risk Modeling – Week 3 Project  
----
 
-## 🧭 Project Overview
 
-This project supports **AlphaCare Insurance Solutions (ACIS)** in building smarter, **risk-based car insurance pricing** strategies using historical data from South Africa. We explore vehicle claims, premiums, and customer demographics to:
-- Discover low-risk customer segments
-- Identify high-risk patterns and pricing inefficiencies
-- Build predictive models for claim risk and premiums
-- Generate actionable business recommendations
+## 📂 Project Folder Structure (after DVC setup)
 
----
+
 
 ## 📁 Project Structure
 insurance-risk-week3/  
@@ -18,8 +11,11 @@ insurance-risk-week3/
 |   |   └── MachineLearningRating_v3.txt  
 |   └── clean/  
 |   |   └── MachineLearningRating_v3_cleaned.csv    
+|   |   └── claims.csv.dvc   
 ├── scripts/  
-│   └── task1_eda.ipynb  
+│   └── task1_eda.ipynb 
+├── .dvc/  
+├── .dvcignore   
 ├── README.md  
 ├── .gitignore  
 └── requirements.txt
